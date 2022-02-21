@@ -44,7 +44,7 @@ h3{
     margin: 0 auto;
 }
 .main{
-	margin-bottom:50px;
+	/* margin-bottom:50px; */
 }
 .flex-wrap {
     flex-wrap: wrap;
@@ -86,7 +86,7 @@ h3{
     box-shadow: 3px 0px 2px 1px lightgrey;
     width: 25%;
     padding: 5px;
-    margin: -22px auto;
+    margin: 1px auto;
     position: relative;
 	cursor:pointer;
     background-color: white;
@@ -98,7 +98,7 @@ h3{
 .section-2 {
     width: 70%;
     padding: 5px;
-    margin: 10px auto;
+    margin: 1px auto;
     position: relative;
 	cursor:pointer;
     background-color: white;
@@ -160,6 +160,9 @@ h3{
 }
 .skill-other{
     background-color: #edc1a1;
+}
+.download{
+    margin: inherit;
 }
 
 /* Media Queries */
