@@ -7,12 +7,11 @@ body{
 section{
     color: darkslategrey;
     padding: 12px;
-    background: #e8ecef;
 }
 hr{
-	width: 96%;
-    height: 2px;
-    background-color: red;
+	width: 90%;
+    height: 1px;
+    background-color: rgb(243, 237, 237);
     border: 0 none;
 }
 p{
@@ -42,7 +41,6 @@ h3{
 }
 .wrapper{
     width: 100%;
-    max-width: 1245px;
     margin: 0 auto;
 }
 .main{
@@ -57,6 +55,9 @@ h3{
 .card {
     position: relative;
     height: 100%;
+}
+.skill-card{
+    position: relative;
 }
 .card-header{
 	padding: 25px 0px;
@@ -82,9 +83,9 @@ h3{
 	color:black;
 }
 .section-3 {
-    width: 30%;
+    width: 25%;
     padding: 5px;
-    margin: 10px auto;
+    margin: -22px auto;
     position: relative;
 	cursor:pointer;
     background-color: white;
@@ -94,7 +95,7 @@ h3{
 	color:black;
 }
 .section-2 {
-    width: 65%;
+    width: 70%;
     padding: 5px;
     margin: 10px auto;
     position: relative;
@@ -125,19 +126,39 @@ h3{
 }
 .profile{
     border-radius: 100%;
-    width: 40%;
+    width: 30%;
 }
 .linkedin{
     text-decoration: none;
-    background: #0554fe;
+    background: #0075b5;
     font: white;
+    border-radius: 3px;
     padding: 6px;
-    width: 61px;
-    margin: 15px auto;
+    width: 35%;
+    margin: 5px auto;
 }
 .linkedin-link{
     text-decoration: none;
     color: white;
+}
+.name{
+    font-weight: 700;
+}
+.skill{
+    background: #3c807e;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    margin: 0.5%;
+}
+.skill-category{
+    margin: 3px auto;
+}
+.skill-pink{
+    background-color: #d29fa6;
+}
+.skill-other{
+    background-color: #edc1a1;
 }
 
 /* Media Queries */
@@ -148,7 +169,7 @@ h3{
 	}
 	.section-2 {
 		width: 100%; 
-		margin:2px 20px;
+        margin: 25px auto;
 	}
 	.section-5 {
 		width: 38%;
