@@ -2,9 +2,12 @@ body{
     font-family: Georgia;
     margin: 0;
 	text-align: center;
+    background: rgba(225,231,240,255);
 }
 section{
-	border: 1px solid lightgrey;
+    color: darkslategrey;
+    padding: 12px;
+    background: #e8ecef;
 }
 hr{
 	width: 96%;
@@ -79,7 +82,7 @@ h3{
 	color:black;
 }
 .section-3 {
-    width: 31.5%;
+    width: 30%;
     margin: 0 auto;
     position: relative;
 	cursor:pointer;
@@ -89,10 +92,8 @@ h3{
 	color:black;
 }
 .section-2 {
-    width: 45%;
+    width: 65%;
     margin: 0 auto;
-	padding: 18px;
-	margin-top:10px;
     position: relative;
 	cursor:pointer;
 }
@@ -117,6 +118,10 @@ h3{
 	border: 3px solid;
 	display: inline-block;
 	font-weight: bold;
+}
+.profile{
+    border-radius: 100%;
+    width: 50%;
 }
 
 /* Media Queries */
