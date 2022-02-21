@@ -84,10 +84,11 @@ h3{
 }
 .section-3 {
     box-shadow: 3px 0px 2px 1px lightgrey;
-    width: 25%;
+    width: 27%;
     padding: 5px;
     margin: 1px auto;
-    position: relative;
+    position: fixed;
+    overflow-x: hidden;
 	cursor:pointer;
     background-color: white;
 }
@@ -98,6 +99,7 @@ h3{
 .section-2 {
     width: 70%;
     padding: 5px;
+    left:15%;
     margin: 1px auto;
     position: relative;
 	cursor:pointer;
@@ -163,6 +165,7 @@ h3{
 }
 .download{
     margin: inherit;
+    font-size: 20px;
 }
 
 /* Media Queries */
@@ -171,9 +174,12 @@ h3{
 		width: 100%;
 		padding: 2px 20px;
         margin: 11px auto;
+        overflow-x:auto;
+        position: relative;
 	}
 	.section-2 {
 		width: 100%; 
+        left:0px;
 	}
 	.section-5 {
 		width: 38%;
