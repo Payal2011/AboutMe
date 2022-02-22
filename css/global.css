@@ -2,12 +2,16 @@ body{
     font-family: Georgia;
     margin: 0;
 	text-align: center;
+    
+}
+.bg-theme{
     background: rgba(225,231,240,255);
 }
 section{
     color: darkslategrey;
     padding: 12px;
 }
+
 hr{
 	width: 90%;
     height: 1px;
@@ -54,7 +58,6 @@ h3{
 }
 .card {
     position: relative;
-    height: 100%;
 }
 .skill-card{
     position: relative;
@@ -82,13 +85,14 @@ h3{
 	overflow: hidden;   
 	color:black;
 }
+.bg-color{
+    background-color:white;
+}
 .section-3 {
-    box-shadow: 3px 0px 2px 1px lightgrey;
+
     width: 27%;
-    padding: 5px;
-    margin: 1px auto;
-    position: fixed;
-    overflow-x: hidden;
+    margin: 20px;
+    position: relative;
 	cursor:pointer;
     background-color: white;
 }
@@ -96,11 +100,53 @@ h3{
 	background-color:#ffd55c;
 	color:black;
 }
+.header-options{
+    margin: 2px auto;
+    color: #343434;
+    padding: 11px;
+    width: 14%;
+    font-size: 16px;
+    cursor: pointer;
+    border:1px solid white;
+}
+
+.header-options.active{
+    background: #325db8;
+    color: white;
+
+}
+.header-options:hover{
+   border:1px solid #325db8;
+}
+.icons{
+    padding: 2px 10px
+}
+.text-left{
+    text-align: left;
+}
+.title-section{
+    text-align: left;
+    border-bottom: 1px solid whitesmoke;
+    padding: 3px;
+    margin: 13px 8px;
+    font-weight: 600;
+}
+.sub-title{
+    width: 75%;
+    text-align: left;
+    margin: 0px 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.title{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 12px;
+}
 .section-2 {
-    width: 70%;
-    padding: 5px;
-    left:15%;
-    margin: 1px auto;
+    width: 65%;
+    margin:20px;
     position: relative;
 	cursor:pointer;
     background-color: white;
@@ -129,7 +175,7 @@ h3{
 }
 .profile{
     border-radius: 100%;
-    width: 30%;
+    width: 80%;
 }
 .linkedin{
     text-decoration: none;
@@ -142,8 +188,8 @@ h3{
 }
 .linkedin-link{
     text-decoration: none;
-    color: white;
 }
+
 .name{
     font-weight: 700;
 }
@@ -161,13 +207,45 @@ h3{
     background-color: #d29fa6;
 }
 .skill-other{
-    background-color: #edc1a1;
+    background-color: #3f5776;
+}
+.interest{
+   
+    background-color:#0e294c;
 }
 .download{
     margin: inherit;
     font-size: 20px;
 }
-
+.main-content{
+    background: whitesmoke;
+    margin: 2px auto;
+    width: 100%;
+}
+.table{
+    width: 100%;
+}
+td{
+    padding: 5px;
+    text-align: left;
+}
+td:first-child{
+    color:grey;
+}
+ul{
+    margin: 8px;
+}
+li{
+    font-size:14px;
+}
+.normal-text{
+    margin: 3px 12px;
+    font-size:14px;
+}
+span{
+    text-decoration: underline;
+    font-size:15px;
+}
 /* Media Queries */
 @media only screen and (max-width: 1000px) {
 	.section-3 {
@@ -179,9 +257,14 @@ h3{
 	}
 	.section-2 {
 		width: 100%; 
+        margin: 0px;
         left:0px;
 	}
+    
 	.section-5 {
 		width: 38%;
 	}	
+    .profile{
+        width: 20%;
+    }
 }
