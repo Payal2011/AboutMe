@@ -93,7 +93,6 @@ h3{
     width: 27%;
     margin: 20px;
     position: relative;
-	cursor:pointer;
     background-color: white;
 }
 .section-3:hover .card-footer{
@@ -148,7 +147,6 @@ h3{
     width: 65%;
     margin:20px;
     position: relative;
-	cursor:pointer;
     background-color: white;
 }
 .home-buttons{
