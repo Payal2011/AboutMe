@@ -267,4 +267,10 @@ span{
     .profile{
         width: 20%;
     }
+    li{
+        font-size: 12px;
+    }
+    .normal-text{
+        font-size: 12px;
+    }
 }
