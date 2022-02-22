@@ -260,15 +260,24 @@ span{
         margin: 0px;
         left:0px;
 	}
-    
+    span{
+        text-decoration: underline;
+        font-size:12px;
+    }
 	.section-5 {
 		width: 38%;
 	}	
     .profile{
         width: 20%;
     }
+    .sub-title {
+        font-size: 20px;
+    }
+    .title{
+font-size: 20px;
+    }
     li{
-        font-size: 11px;
+        font-size: 10px;
     }
     .normal-text{
         font-size: 11px;
